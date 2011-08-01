@@ -6,7 +6,7 @@ class Usuario extends AppModel {
 		'nome' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'message' => '__(O nome não pode ficar em branco!)',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
