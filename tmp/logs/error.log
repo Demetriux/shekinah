@@ -2,3 +2,5 @@
 2011-07-28 16:33:13 Warning: Warning (2): Missing argument 2 for Validation::maxLength(), called in C:\xampp\htdocs\cake1310\cake\libs\object.php on line 112 and defined in [C:\xampp\htdocs\cake1310\cake\libs\validation.php, line 629]
 2011-07-28 16:33:37 Warning: Warning (2): Missing argument 2 for Validation::maxLength(), called in C:\xampp\htdocs\cake1310\cake\libs\object.php on line 112 and defined in [C:\xampp\htdocs\cake1310\cake\libs\validation.php, line 629]
 2011-07-28 16:33:49 Warning: Warning (2): Missing argument 2 for Validation::maxLength(), called in C:\xampp\htdocs\cake1310\cake\libs\object.php on line 112 and defined in [C:\xampp\htdocs\cake1310\cake\libs\validation.php, line 629]
+2011-08-01 15:55:26 Warning: Warning (512): <span style="color:Red;text-align:left"><b>Erro:</b> 1062: Duplicate entry '0' for key 'PRIMARY'</span> in [C:\xampp\htdocs\cake1310\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-08-01 15:55:41 Warning: Warning (512): <span style="color:Red;text-align:left"><b>Erro:</b> 1062: Duplicate entry '0' for key 'PRIMARY'</span> in [C:\xampp\htdocs\cake1310\cake\libs\model\datasources\dbo_source.php, line 684]
