@@ -6,7 +6,7 @@ class Usuario extends AppModel {
 		'username' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
-				'message' => 'Por favor, informe o nome do usuário!',
+				'message' => 'Por favor, informe o nome do usuï¿½rio!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -16,7 +16,7 @@ class Usuario extends AppModel {
 		'password' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
-				'message' => 'Por favor, informe o sobrenome do usuário!',
+				'message' => 'Por favor, informe o sobrenome do usuï¿½rio!',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -26,7 +26,7 @@ class Usuario extends AppModel {
 		'email' => array(
 			'notempty' => array(
 				'rule' => array('email'),
-				'message' => 'Pro favor, informe o logradouro! Ex.: Rua.',
+				'message' => 'Por favor, informe o logradouro! Ex.: Rua.',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
