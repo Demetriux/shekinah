@@ -3,10 +3,14 @@
 class FormaPagamento extends AppModel {
 	var $name = 'FormaPagamento';
 	var $useDbConfig = 'localhost';
+	
 	var $validate = array(
 		'descricao' => array(
-			'rule'    => array('notempty'),
-			'message' => 'Por favor forneÁa uma descric„o para a forma de pagamento!'
+			'valida_desc'					=> array(
+				'rule'    		=> array('notEmpty'),
+				'required'		=> true,
+				'message' 		=> 'Forne√ßa uma descri√ß√£o para a forma de pagamento!'
+			)
 		)		
 	);
 }
