@@ -24,7 +24,12 @@ class Servico extends AppModel {
 				'rule'			=> array('money', 'left'),
 				'required'		=> true,
 				'message'		=> 'Forneça um valor monetário!' 
-			)
+			),
+			'valida_valor_zero'		=> array(
+				'rule'			=> array('comparison', '<=', 0),
+				'required'		=> true,
+				'message'		=> 'Insira um valor monetário maior que "zero"!'
+			),
 		),
 	);
 }
