@@ -37,12 +37,17 @@ class Lancamento extends AppModel {
 			'val_valor_empty'				=> array(
 				'rule'			=> array('notEmpty'),
 				'required'		=> true,
-				'message'		=> 'O valor deve ser forneceido!'
+				'message'		=> 'O valor deve ser fornecido!'
 			),
 			'val_valor_moeda'				=> array(
 				'rule'			=> array('money', 'left'),
 				'required'		=> true,
 				'message'		=> 'Informe um valor monetário!'
+			),
+			'val_valor_zero'				=> array(
+				'rule'			=> array('comparison', '<=', 0),
+				'required'		=> true,
+				'message'		=> 'Insira um valor maior que "zero"!'
 			)
 		),
 	);
