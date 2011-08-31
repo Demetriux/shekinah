@@ -47,7 +47,7 @@ class TratamentoParcela extends AppModel {
 			),
 			'val_valor_zero'			=> array(
 				'rule'			=> array('comparison', '<=', 0),
-				'message'		=> ''
+				'message'		=> 'Forneça um valor maior que "zero"!'
 				
 			)
 		),
