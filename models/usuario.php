@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class Usuario extends AppModel {
 	var $name = 'Usuario';
 	var $useDbConfig = 'localhost';
@@ -60,3 +60,4 @@ class Usuario extends AppModel {
 		),
 	);
 }
+// Fim classe Usuario
